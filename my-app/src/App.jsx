@@ -1,17 +1,12 @@
-import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
+import './index.css'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter} from 'react-router-dom'
+import App from './App.jsx'
 
-function App() {
-  const [count, setCount] = useState(0)
+createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+)
 
-  return (
-    <><h1>Hallo anjing
-
-    </h1>
-    </>
-  )
-}
-
-export default App
