@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
 }
 
 .register-section {
@@ -304,4 +304,51 @@ a {
     width: 15px;
   }
 }
- 
+
+/* ================= TABLET ================= */
+@media (max-width: 768px) {
+
+  .register-section {
+    padding: 20px;
+  }
+
+  .register-box {
+    width: 90%;
+    max-width: 380px;
+    height: auto;
+  }
+
+}
+
+
+/* ================= MOBILE KECIL ================= */
+@media (max-width: 400px) {
+
+  .register-box {
+    width: 95%;
+    height: auto;
+  }
+
+  .register-box-desc {
+    padding: 20px;
+  }
+
+  .judul {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  input {
+    height: 35px;
+    font-size: 0.8rem;
+  }
+
+  .btn-daftar-1,
+  .btn-daftar-google {
+    height: 35px;
+  }
+
+}
